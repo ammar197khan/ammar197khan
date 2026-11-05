@@ -1,0 +1,14 @@
+{
+  "name": "ammar197khan-profile-tools",
+  "private": true,
+  "type": "module",
+  "description": "Generates the SVG artwork and stats cards for the GitHub profile README.",
+  "scripts": {
+    "assets": "node build-assets.mjs",
+    "stats": "node stats.mjs"
+  },
+  "dependencies": {
+    "opentype.js": "^1.3.4",
+    "simple-icons": "^15.0.0"
+  }
+}
